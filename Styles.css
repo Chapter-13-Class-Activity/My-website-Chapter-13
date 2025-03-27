@@ -1,0 +1,118 @@
+body, ul, li, a{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+header {
+    background-color: #333; /* Dark background */
+    padding: 10px 20px; /* Padding around the header */
+}
+
+nav ul {
+    display: flex; /* Make the list items horizontal */
+    align-items: center; /* Center items vertically */
+    justify-content: right;
+}
+
+nav ul, li{
+    margin-left: 20px;
+
+}
+
+nav ul, li, a{
+    color: whitesmoke; /* White text color */
+    font-family: Arial, sans-serif; /* Font style */
+    font-size: 16px; /* Font size */
+    transition: color 0.3s ease; /* Smooth color transition on hover */
+}
+
+nav ul, li, a:hover{
+    color: lightblue;
+}
+
+
+hr{
+border: 0;
+height: 3px;
+background: transparent;
+border-top: black dashed;
+margin: 20px;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    width: 1200px;
+}
+
+.box{
+    width: 400px;
+    border: solid black;
+    margin-left: 10%;
+    height: auto;
+}
+
+.Machanic{
+    background-color: darkslategray;
+    cursor: pointer;
+    color: whitesmoke;
+    padding: 10px 20px;
+    width: 100%;
+}
+
+.Machanic:hover{
+    background-color: powderblue;
+}
+
+.Machanic:active{
+    background-color: black;
+    transform: translateY(5px);
+}
+
+.Doctor{
+    background-color: darkslategray;
+    cursor: pointer;
+    color: whitesmoke;
+    padding: 10px 20px;
+    width: 100%;
+}
+
+.Doctor:hover{
+    background-color: powderblue;
+}
+
+.Doctor:active{
+    background-color: black;
+    transform: translateY(5px);
+}
+
+.IT-specialist{
+    background-color: darkslategray;
+    cursor: pointer;
+    color: whitesmoke;
+    padding: 10px 20px;
+    width: 100%;
+}
+
+.IT-specialist:hover{
+    background-color: powderblue;
+}
+
+.IT-specialist:active{
+    background-color: black;
+    transform: translateY(5px);
+}
+
+.footer{
+    background-color: darkgray;
+    color: whitesmoke;
+    padding: 20px;
+    text-align: center;
+    clear: both;
+}
+
+.Paragraph{
+    text-align: left;
+    display: flex;
+}
